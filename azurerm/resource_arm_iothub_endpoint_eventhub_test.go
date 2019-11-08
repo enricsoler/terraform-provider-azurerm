@@ -181,7 +181,6 @@ func testAccAzureRMIotHubEndpointEventHubExists(resourceName string) resource.Te
 		}
 
 		return fmt.Errorf("Bad: No EventHub endpoint %s defined for IotHub %s", endpointName, iothubName)
-
 	}
 }
 

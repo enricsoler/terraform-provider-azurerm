@@ -182,7 +182,6 @@ func testAccAzureRMIotHubEndpointServiceBusQueueExists(resourceName string) reso
 		}
 
 		return fmt.Errorf("Bad: No ServiceBus Queue endpoint %s defined for IotHub %s", endpointName, iothubName)
-
 	}
 }
 

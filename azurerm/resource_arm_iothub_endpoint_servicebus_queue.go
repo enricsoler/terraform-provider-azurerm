@@ -122,7 +122,6 @@ func resourceArmIotHubEndpointServiceBusQueueCreateUpdate(d *schema.ResourceData
 				}
 				endpoints = append(endpoints, queueEndpoint)
 				alreadyExists = true
-
 			}
 		} else {
 			endpoints = append(endpoints, existingEndpoint)

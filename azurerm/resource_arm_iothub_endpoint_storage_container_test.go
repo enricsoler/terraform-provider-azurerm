@@ -188,7 +188,6 @@ func testAccAzureRMIotHubEndpointStorageContainerExists(resourceName string) res
 		}
 
 		return fmt.Errorf("Bad: No Storage Container endpoint %s defined for IotHub %s", endpointName, iothubName)
-
 	}
 }
 
