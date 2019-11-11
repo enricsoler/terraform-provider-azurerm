@@ -1,7 +1,8 @@
 ---
+subcategory: "Messaging"
 layout: "azurerm"
 page_title: "Azure Resource Manager: azurerm_iothub_endpoint_storage_container"
-sidebar_current: "docs-azurerm-resource-messaging-iothub-endpoint-storage-container-x"
+sidebar_current: "docs-azurerm-resource-messaging-iothub-endpoint-storage-container"
 description: |-
   Manages an IotHub Storage Container Endpoint
 ---
